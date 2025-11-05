@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Исторические дорамы</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(120deg, #bfa77a 0%, #6e4c1b 100%);
+      color: #2d1c0b;
+      padding: 40px 0 0 0;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.7rem;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 12px #00000033;
+      font-weight: 700;
+      color: #fff;
+    }
+    .drama-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      max-width: 950px;
+      margin: 0 auto 50px auto;
+      list-style: none;
+      padding: 0;
+    }
+    .drama-item {
+      background: linear-gradient(100deg, #f5e6c8 60%, #bfa77a 100%);
+      padding: 24px 32px;
+      border-radius: 0;
+      box-shadow: none;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      border-bottom: 3px solid #6e4c1b;
+    }
+    .drama-item:last-child {
+      border-bottom: none;
+    }
+    .drama-item img {
+      border-radius: 12px;
+      width: 160px;
+      height: 220px;
+      object-fit: cover;
+      box-shadow: 0 2px 8px #0003;
+      background: #fff;
+      flex-shrink: 0;
+      display: block;
+    }
+    .drama-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #6e4c1b;
+    }
+    .drama-details p {
+      margin: 4px 0;
+      font-size: 1rem;
+    }
+    .drama-details b {
+      color: #6e4c1b;
+    }
+    .drama-details a {
+      color: #6e4c1b;
+      text-decoration: none;
+    }
+    .drama-details a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 700px) {
+      .drama-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+      }
+      .drama-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Исторические </h1>
+  <ul class="drama-list">
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/02/xechi.jpg" alt="Штрих">
+      <div>
+        <div class="drama-title">Штрих</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2019</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/chan-don-yun">Чан Дон Юн</a>,
+            <a href="https://doramy.club/akter/seol-in-a">Соль Ин А</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/03/bespodobnaya-ledi1.jpg" alt="Бесподобная леди">
+      <div>
+        <div class="drama-title">Бесподобная леди</div>
+        <div class="drama-details">
+          <p><u>Китай, 2019</u></p>
+          <p><u>История, Романтика</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 34 серии</p>
+          <p><b>Канал:</b> <a href="#">Youku</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/guan-xiaotong">Гуань Сяотун</a>,
+            <a href="https://doramy.club/akter/hou-minhao">Хоу Минхао</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2024/02/svadba-v-vostochnom-dvorce.jpg" alt="Восточный дворец">
+      <div>
+        <div class="drama-title">Восточный дворец</div>
+        <div class="drama-details">
+          <p><u>Китай, 2019</u></p>
+          <p><u>История, Драма, Романтика</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 55 серий</p>
+          <p><b>Канал:</b> <a href="#">Youku</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/chen-xingxu">Чэнь Синюй</a>,
+            <a href="https://doramy.club/akter/peng-xiaoran">Пэн Сяожань</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4303601/3c0a7317-ff58-4be6-876b-b9aa2d020989/600x900" alt="Судьба белой змеи">
+      <div>
+        <div class="drama-title">Судьба белой змеи</div>
+        <div class="drama-details">
+          <p><u>Китай, 2018</u></p>
+          <p><u>Фэнтези, История, Романтика</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 60 серий</p>
+          <p><b>Канал:</b> <a href="#">iQiyi</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/alan-yu">Алан Юй</a>,
+            <a href="https://doramy.club/akter/ju-jingyi">Жу Цзинъи</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/01/koronovannyj-shut.jpg" alt="Коронованный шут">
+      <div>
+        <div class="drama-title">Коронованный шут</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2019</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">tvN</a></p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/yeo-jin-goo">Ё Чжин Гу</a>,
+            <a href="https://doramy.club/akter/lee-se-young">Ли Се Ён</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/12/korol-plameni.jpg" alt="Король пламени">
+      <div>
+        <div class="drama-title">Король пламени</div>
+        <div class="drama-details">
+          <p><u>Китай, 2019</u></p>
+          <p><u>История, Фэнтези</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 63 серии</p>
+          <p><b>Канал:</b> <a href="#">Youku</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/chen-yun">Чэнь Юнь</a>,
+            <a href="https://doramy.club/akter/zhang-binbin">Чжан Биньбинь</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/ba7154d6-b6aa-4068-9cbf-4f70a4ff9a1a/600x900" alt="Идеальная парочка">
+      <div>
+        <div class="drama-title">Идеальная парочка</div>
+        <div class="drama-details">
+          <p><u>Китай, 2014</u></p>
+          <p><u>История, Романтика</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 45 серий</p>
+          <p><b>Канал:</b> <a href="#">Hunan TV</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/tiffany-tang">Тиффани Тан</a>,
+            <a href="https://doramy.club/akter/wallace-huo">Уоллес Хо</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/12/tyomnyj-lord.jpg" alt="Тёмный лорд">
+      <div>
+        <div class="drama-title">Тёмный лорд</div>
+        <div class="drama-details">
+          <p><u>Китай, 2018</u></p>
+          <p><u>История, Фэнтези</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 48 серий</p>
+          <p><b>Канал:</b> <a href="#">Youku</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/deng-lun">Дэн Лун</a>,
+            <a href="https://doramy.club/akter/zhou-yu-min">Чжоу Юймин</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/02/sudba-lyubovyu-nas-svyazala.jpg" alt="Судьба любовью нас связала">
+      <div>
+        <div class="drama-title">Судьба любовью нас связала</div>
+        <div class="drama-details">
+          <p><u>Тайланд, 2018</u></p>
+          <p><u>История, Романтика</u></p>
+          <p><b>Время:</b> 50 мин</p>
+          <p><b>Серия:</b> 15 серий</p>
+          <p><b>Канал:</b> <a href="#">Channel 3</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/push-puttipong">Пуш Путтипонг</a>,
+            <a href="https://doramy.club/akter/bua-nalin">Буа Налин</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/02/gnev-korolya.jpg" alt="Гнев короля">
+      <div>
+        <div class="drama-title">Гнев короля</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2014</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/jang-hyuk">Чан Хёк</a>,
+            <a href="https://doramy.club/akter/han-ga-in">Хан Га Ин</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/348c4a7c-bd20-4056-b805-2f6dad16e38a/600x900" alt="Бог войны-Чжао Юнь">
+      <div>
+        <div class="drama-title">Бог войны-Чжао Юнь</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2016</u></p>
+          <p><u>История, Боевик</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 49 серий</p>
+          <p><b>Канал:</b> <a href="#">MBC</a></p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/im-yoon-ah">Им Юн А</a>,
+            <a href="https://doramy.club/akter/lin-geng-xin">Лин Гэн Синь</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/01/korolevstvo.jpg" alt="Королевство">
+      <div>
+        <div class="drama-title">Королевство</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2019</u></p>
+          <p><u>История, Триллер</u></p>
+          <p><b>Время:</b> 55 мин</p>
+          <p><b>Серия:</b> 12 серий</p>
+          <p><b>Канал:</b> <a href="#">Netflix</a></p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ju-ji-hoon">Чу Джи Хун</a>,
+            <a href="https://doramy.club/akter/bae-doona">Бэ Ду На</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://thumbs.filmix.my/posters/0801/thumbs/w220/maskarad-gwanghae-wangyidoen-namja-2012_61602.jpg" alt="Маскарад короля">
+      <div>
+        <div class="drama-title">Маскарад короля</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2012</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 2 час</p>
+          <p><b>Серия:</b> Фильм</p>
+          <p><b>Канал:</b> <a href="#">CJ Entertainment</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/lee-byung-hun">Ли Бён Хон</a>,
+            <a href="https://doramy.club/akter/ryu-seung-ryong">Рю Сын Рён</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/12/portret-krasavicy.jpg" alt="Портрет красавицы">
+      <div>
+        <div class="drama-title">Портрет красавицы</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2008</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 1 час 50 мин</p>
+          <p><b>Серия:</b> Фильм</p>
+          <p><b>Канал:</b> <a href="#">CJ Entertainment</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/yoon-yeon-jung">Юн Ён Чжон</a>,
+            <a href="https://doramy.club/akter/kim-nam-gil">Ким Нам Гиль</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/c3f88e2f-39c6-4dc2-aac3-3f58bafc8b6b/600x900" alt="Фэн-шуй">
+      <div>
+        <div class="drama-title">Фэн-шуй</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2018</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 2 час 6 мин</p>
+          <p><b>Серия:</b> Фильм</p>
+          <p><b>Канал:</b> <a href="#">Megabox</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/cho-seung-woo">Чо Сын У</a>,
+            <a href="https://doramy.club/akter/ji-sung">Чжи Сон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/7e05fdff-b1db-4273-be21-3aac9edecf83/600x900" alt="Королевство ветров">
+      <div>
+        <div class="drama-title">Королевство ветров</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2008</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Серия:</b> 36 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/song-il-gook">Сон Иль Гук</a>,
+            <a href="https://doramy.club/akter/choi-jung-won">Чхве Чжон Вон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/7f2c970c-911d-48f9-927f-0d1420bcde29/600x900" alt="Гимн смерти">
+      <div>
+        <div class="drama-title">Гимн смерти</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2018</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 35 мин</p>
+          <p><b>Серия:</b> 6 серий</p>
+          <p><b>Канал:</b> <a href="#">SBS</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/lee-jong-suk">Ли Чон Сок</a>,
+            <a href="https://doramy.club/akter/shin-hye-sun">Шин Хе Сон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/12/epoxa-zhelanij.jpg" alt="Эпоха желаний">
+      <div>
+        <div class="drama-title">Эпоха желаний</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2015</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Серия:</b> 50 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/jun-kwang-ryul">Чон Гван Рёль</a>,
+            <a href="https://doramy.club/akter/han-ji-sun">Хан Чжисон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/226586d4-fbc6-452f-b384-e6238a85c44e/600x900" alt="Чосонский маг">
+      <div>
+        <div class="drama-title">Чосонский маг</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2015</u></p>
+          <p><u>История, Фэнтези</u></p>
+          <p><b>Время:</b> 2 час</p>
+          <p><b>Серия:</b> Фильм</p>
+          <p><b>Канал:</b> <a href="#">Lotte Entertainment</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/yu-seung-ho">Ю Сын Хо</a>,
+            <a href="https://doramy.club/akter/go-ara">Го А Ра</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1773646/519c6917-f839-4940-bc33-f2539cefdcb1/600x900" alt="Прорыв">
+      <div>
+        <div class="drama-title">Прорыв</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2018</u></p>
+          <p><u>История, Драма</u></p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/kim-don-hwi">Ким Дон Хви</a>,
+            <a href="https://doramy.club/akter/kim-nam-hee">Ким Нам Хи</a>
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>

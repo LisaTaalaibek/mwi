@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Жанры дорам - ДорамаМания</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: radial-gradient(circle at 60% 20%, #ffe082 0%, #ffccbc 40%, #b2ebf2 100%);
+      color: #22223b;
+      padding: 40px 0 0 0;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.7rem;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 16px #fff7;
+      font-weight: 700;
+      color: #d7263d;
+      text-transform: uppercase;
+    }
+    .genre-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 32px;
+      justify-content: center;
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0;
+      list-style: none;
+    }
+    .genre-item {
+      background: linear-gradient(120deg, #fffde7 60%, #ffe0b2 100%);
+      border-radius: 18px;
+      box-shadow: 0 2px 16px #0001;
+      width: 220px;
+      text-align: center;
+      padding: 24px 12px 18px 12px;
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      border: 2px solid #ffd54f;
+    }
+    .genre-item:hover {
+      transform: translateY(-8px) scale(1.04);
+      box-shadow: 0 8px 24px #0002;
+      border-color: #d7263d;
+      background: linear-gradient(120deg, #ffe0b2 60%, #fffde7 100%);
+    }
+    .genre-img {
+      width: 170px;
+      height: 240px;
+      object-fit: cover;
+      border-radius: 12px;
+      margin-bottom: 16px;
+      box-shadow: 0 2px 8px #0001;
+      background: #fff;
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+    }
+    .genre-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: #d7263d;
+      margin-bottom: 8px;
+      letter-spacing: 1px;
+      text-shadow: 0 1px 4px #fff7;
+    }
+    .genre-desc {
+      font-size: 1rem;
+      color: #22223b;
+      margin-bottom: 0;
+    }
+    @media (max-width: 700px) {
+      .genre-list {
+        flex-direction: column;
+        align-items: center;
+        gap: 18px;
+      }
+      .genre-item {
+        width: 95%;
+      }
+      .genre-img {
+        width: 100%;
+        height: auto;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Жанры дорам</h1>
+  <ul class="genre-list">
+    <li class="genre-item">
+      <a href="index.html.2.html">
+        <img class="genre-img" src="https://0.soompi.io/wp-content/uploads/2022/03/06153657/fight-my-way1.jpeg" alt="Мотивация">
+        <div class="genre-title">Мотивация</div>
+        <div class="genre-desc">Вдохновляющие истории о преодолении трудностей и достижении целей.</div>
+      </a>
+    </li>
+    <li class="genre-item">
+      <a href="index.html.3.html">
+        <img class="genre-img" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQDRhzhwzGrsIKvckZ886yz5Ib6GHCUDy_SjQ&s" alt="Комедия">
+        <div class="genre-title">Комедия</div>
+        <div class="genre-desc">Весёлые, лёгкие и забавные дорамы для отличного настроения.</div>
+      </a>
+    </li>
+    <li class="genre-item">
+      <a href="index.html.5.html">
+        <img class="genre-img" src="https://doramy.club/wp-content/uploads/2021/10/ximera.jpg" alt="Боевик">
+        <div class="genre-title">Боевик</div>
+        <div class="genre-desc">Экшен, динамика, захватывающие приключения и борьба за справедливость.</div>
+      </a>
+    </li>
+    <li class="genre-item">
+      <a href="index.html.1.html">
+        <img class="genre-img" src="https://upload.wikimedia.org/wikipedia/ru/d/d7/FykjA_NakAEp_9G.jpeg" alt="Ужастик">
+        <div class="genre-title">Ужастик</div>
+        <div class="genre-desc">Страшные, мистические и напряжённые дорамы для любителей острых ощущений.</div>
+      </a>
+    </li>
+    <li class="genre-item">
+      <a href="index.html.7.html">
+        <img class="genre-img" src="https://doramy.club/wp-content/uploads/2018/10/svyashhennik.jpg" alt="Медицина">
+        <div class="genre-title">Медицина</div>
+        <div class="genre-desc">Дорамы о врачах, больницах и медицинских открытиях.</div>
+      </a>
+    </li>
+    <li class="genre-item">
+      <a href="index.html.4.html">
+        <img class="genre-img" src="https://doramy.club/wp-content/uploads/2018/05/imperatorskij-lekar.jpg" alt="Исторические">
+        <div class="genre-title">Исторические</div>
+        <div class="genre-desc">События прошлого, дворцовые интриги и великие личности.</div>
+      </a>
+    </li>
+    <li class="genre-item">
+      <a href="index.html.6.html">
+        <img class="genre-img" src="https://ixbt.online/live/images/original/24/96/61/2024/11/07/8e5b3ef3e2.webp" alt="Романтика">
+        <div class="genre-title">Романтика</div>
+        <div class="genre-desc">Любовные истории, романтические отношения и чувства.</div>
+      </a>
+    </li>
+  </ul>
+</body>
+</html>

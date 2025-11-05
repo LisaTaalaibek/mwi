@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Медицинские дорамы</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(120deg, #e0f7fa 0%, #b2ebf2 100%);
+      color: #1a237e;
+      padding: 40px 0 0 0;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.7rem;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 12px #00000033;
+      font-weight: 700;
+      color: #00796b;
+    }
+    .drama-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      max-width: 950px;
+      margin: 0 auto 50px auto;
+      list-style: none;
+      padding: 0;
+    }
+    .drama-item {
+      background: linear-gradient(100deg, #e0f2f1 60%, #b2ebf2 100%);
+      padding: 24px 32px;
+      border-radius: 0;
+      box-shadow: none;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      border-bottom: 3px solid #00796b;
+    }
+    .drama-item:last-child {
+      border-bottom: none;
+    }
+    .drama-item img {
+      border-radius: 12px;
+      width: 160px;
+      height: 220px;
+      object-fit: cover;
+      box-shadow: 0 2px 8px #0003;
+      background: #fff;
+      flex-shrink: 0;
+      display: block;
+    }
+    .drama-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #00796b;
+    }
+    .drama-details p {
+      margin: 4px 0;
+      font-size: 1rem;
+    }
+    .drama-details b {
+      color: #00796b;
+    }
+    .drama-details a {
+      color: #00796b;
+      text-decoration: none;
+    }
+    .drama-details a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 700px) {
+      .drama-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+      }
+      .drama-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Медицинские дорамы</h1>
+  <ul class="drama-list">
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/10/svyashhennik.jpg" alt="Священник">
+      <div>
+        <div class="drama-title">Священник</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2019</u></p>
+          <p><u>Медицина, Мистика, Триллер</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">OCN</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/yeon-woo-jin">Ён У Джин</a>,
+            <a href="https://doramy.club/akter/jung-yu-mi">Чон Ю Ми</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/09/torakalnaya-xirurgiya.jpg" alt="Торакальная хирургия">
+      <div>
+        <div class="drama-title">Торакальная хирургия</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2018</u></p>
+          <p><u>Медицина, Драма</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 32 серии</p>
+          <p><b>Канал:</b> <a href="#">SBS</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/go-soo">Ко Су</a>,
+            <a href="https://doramy.club/akter/um-ki-joon">Ом Ки Джун</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/01/krest.jpg" alt="Крест: Божий дар">
+      <div>
+        <div class="drama-title">Крест: Божий дар</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2018</u></p>
+          <p><u>Медицина, Триллер</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">tvN</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/go-kyung-pyo">Ко Гён Пё</a>,
+            <a href="https://doramy.club/akter/jo-jae-hyun">Чо Дже Хён</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/07/riskovannyj-roman.jpg" alt="Рискованный роман">
+      <div>
+        <div class="drama-title">Рискованный роман</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2018</u></p>
+          <p><u>Медицина, Романтика</u></p>
+          <p><b>Время:</b> 35 мин</p>
+          <p><b>Серия:</b> 32 серии</p>
+          <p><b>Канал:</b> <a href="#">MBC</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ji-hyun-woo">Чжи Хён У</a>,
+            <a href="https://doramy.club/akter/lee-si-young">Ли Си Ён</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2017/05/zagadki-boga.jpg" alt="Загадки Бога">
+      <div>
+        <div class="drama-title">Загадки Бога</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2011-2018</u></p>
+          <p><u>Медицина, Детектив</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 4 сезона</p>
+          <p><b>Канал:</b> <a href="#">OCN</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ryu-deok-hwan">Рю Док Хван</a>,
+            <a href="https://doramy.club/akter/yoon-ju-hee">Юн Джу Хи</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/08/dyavolskoe-udovolstvie.jpg" alt="Дьявольское удовольствие">
+      <div>
+        <div class="drama-title">Дьявольское удовольствие</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2018</u></p>
+          <p><u>Медицина, Мелодрама</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">MBN</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/choi-jin-hyuk">Чхве Джин Хёк</a>,
+            <a href="https://doramy.club/akter/song-ha-yoon">Сон Ха Юн</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/07/zhizn-2.jpg" alt="Жизнь">
+      <div>
+        <div class="drama-title">Жизнь</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2018</u></p>
+          <p><u>Медицина, Драма</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">JTBC</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/lee-dong-wook">Ли Дон Ук</a>,
+            <a href="https://doramy.club/akter/cho-seung-woo">Чо Сын У</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2017/08/korabl-gospital.jpg" alt="Плавающий госпиталь">
+      <div>
+        <div class="drama-title">Плавающий госпиталь</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2017</u></p>
+          <p><u>Медицина, Драма</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ha-ji-won">Ха Джи Вон</a>,
+            <a href="https://doramy.club/akter/kang-min-hyuk">Кан Мин Хёк</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2020/01/uchitel-kim-doktor-romantik-2-1.jpg" alt="Учитель Ким доктор романтик">
+      <div>
+        <div class="drama-title">Учитель Ким доктор романтик</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2016</u></p>
+          <p><u>Медицина, Драма</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">SBS</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/han-suk-kyu">Хан Сок Гю</a>,
+            <a href="https://doramy.club/akter/yoo-yeon-seok">Ю Ён Сок</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/9784475/d5846156-5591-4517-aaec-379f13f3b6cd/600x900" alt="Доктор в кризисе">
+      <div>
+        <div class="drama-title">Доктор в кризисе</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2023</u></p>
+          <p><u>Медицина, Драма, Комедия</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 12 серий</p>
+          <p><b>Канал:</b> <a href="#">tvN</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/park-shin-hye">Пак Шин Хе</a>,
+            <a href="https://doramy.club/akter/park-hyun-shik">Пак Хён Шик</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/db8b3e67-85d2-4df1-b2c1-60c096f3f974/600x900" alt="Судмедэксперт доктор Цинь">
+      <div>
+        <div class="drama-title">Судмедэксперт доктор Цинь</div>
+        <div class="drama-details">
+          <p><u>Китай, 2016</u></p>
+          <p><u>Медицина, Детектив</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">Sohu TV</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/zhang-ruoyun">Чжан Жо Юнь</a>,
+            <a href="https://doramy.club/akter/jiao-jun-yan">Цзяо Цзюнь Янь</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://static.hdrezka.ac/i/2016/4/28/s411d0dfd30abuj21x21k.jpg" alt="Потомки солнца">
+      <div>
+        <div class="drama-title">Потомки солнца</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2016</u></p>
+          <p><u>Медицина, Мелодрама</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/song-joong-ki">Сон Джун Ки</a>,
+            <a href="https://doramy.club/akter/song-hye-kyo">Сон Хе Гё</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://thumbs.filmix.my/posters/3459/thumbs/w220/genii-mediciny-2013_108361.jpg" alt="Гении медицины">
+      <div>
+        <div class="drama-title">Гении медицины</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2013</u></p>
+          <p><u>Медицина, Драма</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ju-won">Чу Вон</a>,
+            <a href="https://doramy.club/akter/moon-chae-won">Мун Чхэ Вон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/05/imperatorskij-lekar.jpg" alt="Императорский лекарь">
+      <div>
+        <div class="drama-title">Императорский лекарь</div>
+        <div class="drama-details">
+          <p><u>Китай, 2016</u></p>
+          <p><u>Медицина, История</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 50 серий</p>
+          <p><b>Канал:</b> <a href="#">CCTV</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/wallace-ho">Уоллес Хо</a>,
+            <a href="https://doramy.club/akter/liu-shishi">Лю Шиши</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://static.hdrezka.ac/i/2021/8/26/pc49bc36ae94bkk41f30t.png" alt="Ребёнок под заказ">
+      <div>
+        <div class="drama-title">Ребёнок под заказ</div>
+        <div class="drama-details">
+          <p><u>Япония, 2015</u></p>
+          <p><u>Медицина, Драма</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 10 серий</p>
+          <p><b>Канал:</b> <a href="#">NTV</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ayase-haruka">Аясэ Харука</a>,
+            <a href="https://doramy.club/akter/miura-haruma">Миура Харума</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2017/05/krov.jpg" alt="Кровь">
+      <div>
+        <div class="drama-title">Кровь</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2015</u></p>
+          <p><u>Медицина, Фэнтези</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">KBS2</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ahn-jae-hyun">Ан Джэ Хён</a>,
+            <a href="https://doramy.club/akter/ku-hye-sun">Ку Хе Сон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1629390/764c63ae-2657-4063-ba70-d904af6185c3/600x900" alt="День Д">
+      <div>
+        <div class="drama-title">День Д</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2015</u></p>
+          <p><u>Медицина, Триллер</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">JTBC</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/kim-young-kwang">Ким Ён Кван</a>,
+            <a href="https://doramy.club/akter/jung-so-min">Чон Со Мин</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2021/04/vrachi-neotlozhki.jpg" alt="Врачи неотложки">
+      <div>
+        <div class="drama-title">Врачи неотложки</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2014</u></p>
+          <p><u>Медицина, Романтика</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 21 серия</p>
+          <p><b>Канал:</b> <a href="#">tvN</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/choi-jin-hyuk">Чхве Джин Хёк</a>,
+            <a href="https://doramy.club/akter/song-ji-hyo">Сон Джи Хё</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/10/glaza-angela.jpg" alt="Глаза ангела">
+      <div>
+        <div class="drama-title">Глаза ангела</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2014</u></p>
+          <p><u>Медицина, Мелодрама</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">SBS</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/lee-sang-yoon">Ли Сан Юн</a>,
+            <a href="https://doramy.club/akter/ku-hye-sun">Ку Хе Сон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://steponee.tv/uploads/posts/2016-04/1460092173_fqwqkmcmngc.jpg" alt="Доктор чужестранец">
+      <div>
+        <div class="drama-title">Доктор чужестранец</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2014</u></p>
+          <p><u>Медицина, Драма</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">SBS</a></p>
+          <p><b>Перевод:</b> Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/lee-jong-suk">Ли Чон Сок</a>,
+            <a href="https://doramy.club/akter/jin-se-yeon">Чжин Се Ён</a>
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>

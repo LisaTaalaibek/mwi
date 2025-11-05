@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Романтические дорамы</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(120deg, #ffe0f7 0%, #ffe4ec 100%);
+      color: #ad1457;
+      padding: 40px 0 0 0;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.3rem;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 12px #fff7;
+      font-weight: 700;
+      color: #d72660;
+      text-transform: uppercase;
+    }
+    .drama-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      max-width: 900px;
+      margin: 0 auto 50px auto;
+      list-style: none;
+      padding: 0;
+    }
+    .drama-item {
+      background: linear-gradient(100deg, #fff 60%, #ffe0f7 100%);
+      padding: 24px 32px;
+      border-radius: 0;
+      box-shadow: 0 2px 12px #d7266011;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      border-bottom: 2px solid #d72660;
+      transition: background 0.3s;
+    }
+    .drama-item:last-child {
+      border-bottom: none;
+    }
+    .drama-item img {
+      border-radius: 12px;
+      width: 160px;
+      height: 220px;
+      object-fit: cover;
+      box-shadow: 0 2px 8px #0001;
+      background: #fff;
+      flex-shrink: 0;
+      display: block;
+    }
+    .drama-title {
+      font-size: 1.2rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #d72660;
+      letter-spacing: 1px;
+      text-shadow: 0 1px 4px #fff7;
+    }
+    .drama-details p {
+      margin: 4px 0;
+      font-size: 1rem;
+    }
+    .drama-details b {
+      color: #d72660;
+    }
+    .drama-details a {
+      color: #d72660;
+      text-decoration: none;
+    }
+    .drama-details a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 700px) {
+      .drama-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+      }
+      .drama-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Романтика</h1>
+  <ul class="drama-list">
+    <li class="drama-item">
+      <img src="https://data.cyclowiki.org/images/7/7c/CGVltF4TbcoG3LOBPLHR67YxPwZ.jpg" alt="Мерцающий арбуз">
+      <div>
+        <div class="drama-title">Мерцающий арбуз</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Фэнтези</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> tvN</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ryo-un">Рё Ун</a>,
+            <a href="https://doramy.club/akter/chhve-hyon-uk">Чхве Хён Ук</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://www.kino-teatr.ru/movie/poster/5/1/184315/pv_220046.jpg" alt="Хватай Сондже и беги">
+      <div>
+        <div class="drama-title">Хватай Сондже и беги</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Комедия</p>
+          <p><b>Серия:</b> 12 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> SBS</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/li-syn-gi">Ли Сын Ги</a>,
+            <a href="https://doramy.club/akter/kim-yu-chzhon">Ким Ю Чжон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/e79364d7-f148-42f3-a4ca-e95463d01492/600x900" alt="Деловое предложение">
+      <div>
+        <div class="drama-title">Деловое предложение</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Комедия</p>
+          <p><b>Серия:</b> 12 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> SBS</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/an-hyo-sop">Ан Хё Соп</a>,
+            <a href="https://doramy.club/akter/kim-se-dzhon">Ким Се Джон</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://upload.wikimedia.org/wikipedia/ru/6/6a/True_Beauty_poster.jpg" alt="Истинная красота">
+      <div>
+        <div class="drama-title">Истинная красота</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Школа</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> tvN</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/mun-ga-yon">Мун Га Ён</a>,
+            <a href="https://doramy.club/akter/cha-yn-u">Чха Ын У</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/6c5af888-3791-4112-994e-05eb1120f196/600x900" alt="Саундтрек №1">
+      <div>
+        <div class="drama-title">Саундтрек №1</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Музыка</p>
+          <p><b>Серия:</b> 4 серии</p>
+          <p><b>Время:</b> 40 мин</p>
+          <p><b>Канал:</b> Disney+</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/park-hyon-shik">Пак Хён Шик</a>,
+            <a href="https://doramy.club/akter/han-so-hi">Хан Со Хи</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://s1.afisha.ru/mediastorage/37/a6/90755dad641741048643ead6a637.jpg" alt="Параллельные миры">
+      <div>
+        <div class="drama-title">Параллельные миры</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Фантастика</p>
+          <p><b>Серия:</b> 24 серии</p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Канал:</b> Tencent Video</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/yan-chao-yue">Ян Чао Юэ</a>,
+            <a href="https://doramy.club/akter/li-hun-i">Ли Хун И</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/725b7054-195b-4fb2-af6e-67ea84cef51b/600x900" alt="Скрытая любовь">
+      <div>
+        <div class="drama-title">Скрытая любовь</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Драма</p>
+          <p><b>Серия:</b> 25 серий</p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Канал:</b> Youku</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/chzhao-lu-sy">Чжао Лу Сы</a>,
+            <a href="https://doramy.club/akter/chen-chzhe-yuan">Чэнь Чжэ Юань</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-ott/212840/2a0000018824ef1fd4fd070ebe9e5ffcd24c/375x375" alt="Наследники">
+      <div>
+        <div class="drama-title">Наследники</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Школа</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> SBS</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/li-min-ho">Ли Мин Хо</a>,
+            <a href="https://doramy.club/akter/park-shin-he">Пак Шин Хе</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2023/08/bespoleznaya-lozh.jpg" alt="Бесполезная ложь">
+      <div>
+        <div class="drama-title">Бесполезная ложь</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Мистика</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> tvN</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/kim-so-hyon">Ким Со Хён</a>,
+            <a href="https://doramy.club/akter/hvan-min-hyon">Хван Мин Хён</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2023/05/ty-kogo-ya-vstretil-sluchajno.jpg" alt="Мой идеальный незнакомец">
+      <div>
+        <div class="drama-title">Мой идеальный незнакомец</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Фантастика</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> KBS2</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/kim-don-uk">Ким Дон Ук</a>,
+            <a href="https://doramy.club/akter/chzhin-ki-dzhu">Чжин Ки Джу</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQbzroww6SY42Ws2zGBXHygl3J2ATZuWgFA4w&s" alt="Легенда синего моря">
+      <div>
+        <div class="drama-title">Легенда синего моря</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Фэнтези</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> SBS</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/chon-dzhi-hyon">Чон Джи Хён</a>,
+            <a href="https://doramy.club/akter/li-min-ho">Ли Мин Хо</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1946459/07fc4d60-db51-4895-a912-c1133a6aa11f/600x900" alt="В один прекрасный день">
+      <div>
+        <div class="drama-title">В один прекрасный день</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Драма</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> MBC</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/gon-yu">Кон Ю</a>,
+            <a href="https://doramy.club/akter/song-yu-ri">Сон Ю Ри</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/07/lyubovnyj-signal.jpg" alt="Любовный сигнал">
+      <div>
+        <div class="drama-title">Любовный сигнал</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Молодежь</p>
+          <p><b>Серия:</b> 8 серий</p>
+          <p><b>Время:</b> 50 мин</p>
+          <p><b>Канал:</b> Netflix</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/kim-so-hyon">Ким Со Хён</a>,
+            <a href="https://doramy.club/akter/song-kan">Сон Кан</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2017/12/ya-ne-robot.jpg" alt="Я не робот">
+      <div>
+        <div class="drama-title">Я не робот</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Фантастика</p>
+          <p><b>Серия:</b> 32 серии</p>
+          <p><b>Время:</b> 35 мин</p>
+          <p><b>Канал:</b> MBC</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/yu-syn-ho">Ю Сын Хо</a>,
+            <a href="https://doramy.club/akter/chhe-su-bin">Чхэ Су Бин</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://i.ytimg.com/vi/uqUGqjtPWZQ/sddefault.jpg" alt="Цветочки после ягодок">
+      <div>
+        <div class="drama-title">Цветочки после ягодок</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Школа</p>
+          <p><b>Серия:</b> 25 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> KBS2</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/ku-he-son">Ку Хе Сон</a>,
+            <a href="https://doramy.club/akter/li-min-ho">Ли Мин Хо</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/11/avarijnaya-posadka-lyubvi.jpg" alt="Аварийная посадка любви">
+      <div>
+        <div class="drama-title">Аварийная посадка любви</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Драма</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> tvN</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/hyon-bin">Хён Бин</a>,
+            <a href="https://doramy.club/akter/song-e-dzhin">Сон Йе Джин</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://www.yesasia.ru/wp-content/uploads/2016/09/25-1400-e1474623269731-700x604.jpg" alt="Безрассудно влюблены">
+      <div>
+        <div class="drama-title">Безрассудно влюблены</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Драма</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> KBS2</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/kim-u-bin">Ким У Бин</a>,
+            <a href="https://doramy.club/akter/suzi">Сузи</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2021/05/odnazhdy-razrushenie.jpg" alt="Однажды разрушение вошло в дверь моего дома">
+      <div>
+        <div class="drama-title">Однажды разрушение вошло в дверь моего дома</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Фэнтези</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Время:</b> 1 час</p>
+          <p><b>Канал:</b> tvN</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/so-in-guk">Со Ин Гук</a>,
+            <a href="https://doramy.club/akter/park-bo-yon">Пак Бо Ён</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2019/04/polozhi-svoyu-golovu-mne-na-plecho.jpg" alt="Положи голову мне на плечо">
+      <div>
+        <div class="drama-title">Положи голову мне на плечо</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Молодежь</p>
+          <p><b>Серия:</b> 24 серии</p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Канал:</b> Tencent Video</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/sin-yunlaj">Синь Юньлай</a>,
+            <a href="https://doramy.club/akter/fei-sin">Фэй Син</a>
+          </p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramalive.vip/uploads/posts/2024-06/img_0147.webp" alt="Любовь лучше, чем бессмертие">
+      <div>
+        <div class="drama-title">Любовь лучше, чем бессмертие</div>
+        <div class="drama-details">
+          <p><b>Жанр:</b> Романтика, Фэнтези</p>
+          <p><b>Серия:</b> 40 серий</p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Канал:</b> Youku</p>
+          <p><b>Перевод:</b> Русская озвучка, Русские субтитры</p>
+          <p><b>В ролях:</b>
+            <a href="https://doramy.club/akter/chzhao-lu-sy">Чжао Лу Сы</a>,
+            <a href="https://doramy.club/akter/li-hun-i">Ли Хун И</a>
+          </p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>

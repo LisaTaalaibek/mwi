@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ужасы дорамы - ДорамаМания</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(120deg, #18181a 0%, #2c2c38 100%);
+      color: #f5f5f5;
+      padding: 40px 0 0 0;
+      min-height: 100vh;
+      box-sizing: border-box;
+    }
+    h1 {
+      text-align: center;
+      font-size: 2.7rem;
+      margin-bottom: 40px;
+      letter-spacing: 2px;
+      text-shadow: 0 2px 16px #000000cc;
+      font-weight: 700;
+      color: #ff1744;
+      text-transform: uppercase;
+    }
+    .drama-list {
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+      max-width: 950px;
+      margin: 0 auto 50px auto;
+      list-style: none;
+      padding: 0;
+    }
+    .drama-item {
+      background: linear-gradient(100deg, #23232b 60%, #2c2c38 100%);
+      padding: 24px 32px;
+      border-radius: 0;
+      box-shadow: 0 2px 16px #000a;
+      display: flex;
+      gap: 18px;
+      align-items: flex-start;
+      border-bottom: 3px solid #ff1744;
+      transition: background 0.3s;
+    }
+    .drama-item:last-child {
+      border-bottom: none;
+    }
+    .drama-item:hover {
+      background: linear-gradient(100deg, #2c2c38 60%, #23232b 100%);
+    }
+    .drama-item img {
+      border-radius: 12px;
+      width: 170px;
+      height: 240px;
+      object-fit: cover;
+      box-shadow: 0 2px 12px #000c;
+      background: #222;
+      flex-shrink: 0;
+      display: block;
+      border: 2px solid #ff1744;
+    }
+    .drama-title {
+      font-size: 1.3rem;
+      font-weight: 700;
+      margin-bottom: 8px;
+      color: #ff1744;
+      letter-spacing: 1px;
+      text-shadow: 0 1px 4px #000a;
+      text-transform: uppercase;
+    }
+    .drama-details p {
+      margin: 4px 0;
+      font-size: 1rem;
+    }
+    .drama-details b {
+      color: #ff1744;
+    }
+    .drama-details a {
+      color: #ff1744;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .drama-details a:hover {
+      text-decoration: underline;
+    }
+    @media (max-width: 700px) {
+      .drama-item {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 16px;
+      }
+      .drama-item img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <h1>Ужасы дорамы</h1>
+  <ul class="drama-list">
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/6201401/a5bc93bf-4e9f-495b-9a8e-401d760dd919/600x900" alt="Убийца-подражатель">
+      <div>
+        <div class="drama-title">Убийца-подражатель</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2023</u></p>
+          <p><u>Триллер, Ужасы, Детектив</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 8 серий</p>
+          <p><b>Канал:</b> <a href="#">Netflix</a></p>
+          <p><b>В ролях:</b> Ким Нам Гиль, Чжин Сон Гю</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://upload.wikimedia.org/wikipedia/ru/d/d7/FykjA_NakAEp_9G.jpeg" alt="Демон">
+      <div>
+        <div class="drama-title">Демон</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2023</u></p>
+          <p><u>Триллер, Мистика, Ужасы</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 12 серий</p>
+          <p><b>Канал:</b> <a href="#">SBS</a></p>
+          <p><b>В ролях:</b> Ким Тхэ Ри, О Чжон Се</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2021/10/ximera.jpg" alt="Химера">
+      <div>
+        <div class="drama-title">Химера</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2021</u></p>
+          <p><u>Триллер, Ужасы, Детектив</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">OCN</a></p>
+          <p><b>В ролях:</b> Пак Хэ Су, Ли Хи Джун</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2022/03/korol-svinej.jpg" alt="Король свиней">
+      <div>
+        <div class="drama-title">Король свиней</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2022</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 50 мин</p>
+          <p><b>Серия:</b> 12 серий</p>
+          <p><b>Канал:</b> <a href="#">TVING</a></p>
+          <p><b>В ролях:</b> Ким Дон Ук, Ким Сон Гю</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/4774061/a6bc2f73-7156-4d70-9e3c-91c776eef33b/220x330" alt="Я видел дьявола">
+      <div>
+        <div class="drama-title">Я видел дьявола</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2010</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 141 мин</p>
+          <p><b>Канал:</b> <a href="#">Кино</a></p>
+          <p><b>В ролях:</b> Ли Бён Хон, Чхве Мин Сик</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://kinogo.host/uploads/posts/2023-07/610x900_51494.webp" alt="Призрачный дверь">
+      <div>
+        <div class="drama-title">Призрачный дверь</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2023</u></p>
+          <p><u>Ужасы, Мистика</u></p>
+          <p><b>Время:</b> 90 мин</p>
+          <p><b>Канал:</b> <a href="#">Кино</a></p>
+          <p><b>В ролях:</b> Ким Кан У, Ким Со Ын</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://cdn.ruwiki.ru/ruwiki/files/thumb/9/92/%D0%9F%D0%BE%D0%BB%D0%BD%D0%BE%D1%87%D1%8C_%28%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%2C_2021%29.webp/800px-%D0%9F%D0%BE%D0%BB%D0%BD%D0%BE%D1%87%D1%8C_%28%D1%84%D0%B8%D0%BB%D1%8C%D0%BC%2C_2021%29.webp.png" alt="Полночь">
+      <div>
+        <div class="drama-title">Полночь</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2021</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 103 мин</p>
+          <p><b>Канал:</b> <a href="#">Кино</a></p>
+          <p><b>В ролях:</b> Чжин Ки Чжу, Ви Ха Джун</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2021/03/mysh.jpg" alt="Мышь">
+      <div>
+        <div class="drama-title">Мышь</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2021</u></p>
+          <p><u>Триллер, Ужасы, Детектив</u></p>
+          <p><b>Время:</b> 70 мин</p>
+          <p><b>Серия:</b> 20 серий</p>
+          <p><b>Канал:</b> <a href="#">tvN</a></p>
+          <p><b>В ролях:</b> Ли Сын Ги, Ли Хи Джун</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://static.hdrezka.ac/i/2024/4/4/df11b8a81150fvk33w76w.jpg" alt="Паразит: Серый">
+      <div>
+        <div class="drama-title">Паразит: Серый</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2024</u></p>
+          <p><u>Ужасы, Фантастика</u></p>
+          <p><b>Время:</b> 50 мин</p>
+          <p><b>Серия:</b> 6 серий</p>
+          <p><b>Канал:</b> <a href="#">Netflix</a></p>
+          <p><b>В ролях:</b> Чон Со Ни, Ку Гю Хван</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2022/12/soedinenie-svyaz.jpg" alt="Соединение">
+      <div>
+        <div class="drama-title">Соединение</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2022</u></p>
+          <p><u>Триллер, Ужасы, Фантастика</u></p>
+          <p><b>Время:</b> 45 мин</p>
+          <p><b>Серия:</b> 6 серий</p>
+          <p><b>Канал:</b> <a href="#">Disney+</a></p>
+          <p><b>В ролях:</b> Чон Хэ Ин, Ко Гён Пё</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2020/12/milyj-dom.jpg" alt="Милый дом">
+      <div>
+        <div class="drama-title">Милый дом</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2020</u></p>
+          <p><u>Ужасы, Триллер, Фантастика</u></p>
+          <p><b>Время:</b> 50 мин</p>
+          <p><b>Серия:</b> 10 серий</p>
+          <p><b>Канал:</b> <a href="#">Netflix</a></p>
+          <p><b>В ролях:</b> Сон Кан, Ли Джин Ук</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2020/12/zvonok.jpg" alt="Звонок из прошлого">
+      <div>
+        <div class="drama-title">Звонок из прошлого</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2020</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 112 мин</p>
+          <p><b>Канал:</b> <a href="#">Кино</a></p>
+          <p><b>В ролях:</b> Пак Шин Хе, Чон Чон Со</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://upload.wikimedia.org/wikipedia/ru/thumb/4/4b/%D0%9D%D0%B5%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%86%D1%8B_%D0%B8%D0%B7_%D0%B0%D0%B4%D0%B0.jpg/960px-%D0%9D%D0%B5%D0%B7%D0%BD%D0%B0%D0%BA%D0%BE%D0%BC%D1%86%D1%8B_%D0%B8%D0%B7_%D0%B0%D0%B4%D0%B0.jpg" alt="Незнакомцы из ада">
+      <div>
+        <div class="drama-title">Незнакомцы из ада</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2019</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 10 серий</p>
+          <p><b>Канал:</b> <a href="#">OCN</a></p>
+          <p><b>В ролях:</b> Им Ши Ван, Ли Дон Ук</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2017/04/golos.jpg" alt="Голос">
+      <div>
+        <div class="drama-title">Голос</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2017</u></p>
+          <p><u>Триллер, Ужасы, Детектив</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">OCN</a></p>
+          <p><b>В ролях:</b> Чан Хёк, Ли Ха На</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/1599028/2159f5de-9cf6-4696-a9e1-858b10915fc1/220x330" alt="Улика">
+      <div>
+        <div class="drama-title">Улика</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2022</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 8 серий</p>
+          <p><b>Канал:</b> <a href="#">TVING</a></p>
+          <p><b>В ролях:</b> Ким Хён Су, Чон Га Рам</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://upload.wikimedia.org/wikipedia/ru/9/94/%D0%9C%D0%BE%D0%BD%D1%81%D1%82%D1%80_2021.jpeg" alt="Монстр">
+      <div>
+        <div class="drama-title">Монстр</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2021</u></p>
+          <p><u>Триллер, Ужасы, Детектив</u></p>
+          <p><b>Время:</b> 70 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">JTBC</a></p>
+          <p><b>В ролях:</b> Шин Ха Гюн, Ё Чжин Гу</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2023/03/ejch-gipnoz.jpg" alt="Эйч">
+      <div>
+        <div class="drama-title">Эйч</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2022</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 8 серий</p>
+          <p><b>Канал:</b> <a href="#">TVING</a></p>
+          <p><b>В ролях:</b> Ким Ён Мин, Ли Хи Джун</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://thumbs.filmix.my/posters/5236/thumbs/w220/svidetel-tops-2018_131323.jpg" alt="Свидетель">
+      <div>
+        <div class="drama-title">Свидетель</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2022</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 8 серий</p>
+          <p><b>Канал:</b> <a href="#">TVING</a></p>
+          <p><b>В ролях:</b> Ким Дон Хви, Чон Ын Чхэ</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2018/06/gran.jpg" alt="Грань">
+      <div>
+        <div class="drama-title">Грань</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2021</u></p>
+          <p><u>Триллер, Ужасы</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 12 серий</p>
+          <p><b>Канал:</b> <a href="#">OCN</a></p>
+          <p><b>В ролях:</b> Чжин Гу, Ли Чжун Хёк</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://avatars.mds.yandex.net/get-kinopoisk-image/10592371/85d199ab-53c5-4869-a490-e6fed522fe0f/600x900" alt="Вспоминание об убийстве">
+      <div>
+        <div class="drama-title">Вспоминание об убийстве</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2003</u></p>
+          <p><u>Триллер, Ужасы, Детектив</u></p>
+          <p><b>Время:</b> 132 мин</p>
+          <p><b>Канал:</b> <a href="#">Кино</a></p>
+          <p><b>В ролях:</b> Сон Кан Хо, Ким Сан Гён</p>
+        </div>
+      </div>
+    </li>
+    <li class="drama-item">
+      <img src="https://doramy.club/wp-content/uploads/2017/04/tonnel-2.jpg" alt="Туннель">
+      <div>
+        <div class="drama-title">Туннель</div>
+        <div class="drama-details">
+          <p><u>Южная Корея, 2017</u></p>
+          <p><u>Триллер, Ужасы, Детектив</u></p>
+          <p><b>Время:</b> 60 мин</p>
+          <p><b>Серия:</b> 16 серий</p>
+          <p><b>Канал:</b> <a href="#">OCN</a></p>
+          <p><b>В ролях:</b> Чхве Джин Хёк, Юн Хён Мин</p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</body>
+</html>
